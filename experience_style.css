@@ -1,0 +1,142 @@
+body {
+  background-color: #397d4c;
+}
+
+#head{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: snow;
+  box-shadow: 2px 4px 8px #424242;
+
+}
+
+#title{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #424242;
+}
+
+#arr{
+  position: fixed;
+  top: 50%;
+  left: 2%;
+  transform: translate(-50%, -50%);
+}
+
+#arrow{
+
+  width: 100px;
+  height: 100px;
+}
+
+#background{
+  width:1000px;
+  height:666px;
+  background-color: snow;
+  box-shadow: 2px 4px 8px #424242;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slide-img{
+  width:200px;
+  height:200px;
+  position: absolute;
+  left: 400px;
+  top: 370px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 1000px;
+  height: 666px;
+  position: relative;
+  margin: auto;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Caption text */
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #424242;
+  font-size: 22px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 8px;
+  width: 95%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

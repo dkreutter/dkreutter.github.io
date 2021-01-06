@@ -1,0 +1,71 @@
+img.rounded {
+  display: block;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 40px;
+}
+
+body {
+  background-color: #397d4c;
+}
+
+#head {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+  background-color: snow;
+  box-shadow: 2px 4px 8px #424242;
+}
+
+#title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #424242;
+
+}
+
+.img-link{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#par {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #424242;
+}
+
+#pardiv {
+  width: 900px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  background-color: snow;
+  box-shadow: 2px 4px 8px #424242;
+}
+
+#arr{
+  position: fixed;
+  top: 50%;
+  left: 2%;
+  transform: translate(-50%, -50%);
+}
+
+#arrow{
+  
+  width: 100px;
+  height: 100px;
+}
